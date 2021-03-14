@@ -37,6 +37,7 @@ header {
 }
 
 .header_list_button {
+    list-style: none;
     margin: auto 0;
 }
 
