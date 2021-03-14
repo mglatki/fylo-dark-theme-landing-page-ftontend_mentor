@@ -59,5 +59,55 @@ hero h2 {
     width: 100%;
 }
 
+.quotations_section {
+    margin: 5rem 1rem;
+    padding-top: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 0.65rem;
+
+    background-image: url(/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 2rem;
+}
+
+.quotations_section > *:not(:first-child) {
+    margin-top: 1rem;
+}
+
+tile {
+    background: hsl(219, 30%, 18%);
+    border-radius: 0.5rem;
+
+    padding: 1.5rem;
+}
+
+author {
+    display: grid;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: 2rem auto;
+    margin-top: 1rem;
+}
+
+author img {
+    height: 2rem;
+    border-radius: 50%;
+
+    grid-row: 1/ span 2;
+}
+
+author name {
+    font-weight: bold;
+}
+
+author description {
+    font-size: 0.6rem;
+    grid-column: 2/2;
+    opacity: 50%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
