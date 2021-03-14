@@ -55,5 +55,9 @@ hero h2 {
     width: 100%;
 }
 
+.productive_image {
+    width: 100%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
