@@ -14,7 +14,7 @@ body {
     font-size: 14px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Raleway', sans-serif;;
 }
 
@@ -44,8 +44,8 @@ main {
     margin: 2rem;
 }
 
-hero h1 {
-    font-size: 1.4rem;
+hero h2 {
+    /* font-size: 1.4rem; */
     line-height: 1.5;
     text-align: center;
 }
