@@ -40,5 +40,19 @@ header {
     margin: auto 0;
 }
 
+main {
+    margin: 2rem;
+}
+
+hero h1 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.hero_image {
+    width: 100%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
