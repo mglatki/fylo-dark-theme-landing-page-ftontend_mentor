@@ -102,7 +102,7 @@ hero h2 {
     margin-top: 1rem;
 }
 
-tile {
+.quotations_tile {
     background: hsl(219, 30%, 18%);
     border-radius: 0.5rem;
 
