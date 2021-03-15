@@ -55,6 +55,34 @@ hero h2 {
     width: 100%;
 }
 
+.features_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+}
+
+.features_section > *:not(:first-child) {
+    margin-top: 3rem;
+}
+
+.feature_tile {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.feature_tile img {
+    margin: 2rem auto;
+    height: 4rem;
+}
+
+.feature_tile h3 {
+    margin: 1rem 0;
+}
+
+.feature_tile p {
+    text-align: center;
+}
+
 .productive_section {
     margin: 10rem 0;
 }
