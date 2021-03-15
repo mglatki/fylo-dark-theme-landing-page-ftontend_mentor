@@ -46,13 +46,33 @@ main {
     margin: 2rem;
 }
 
+hero {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 hero h2 {
     line-height: 1.5;
+    margin: 1rem 0;
+}
+
+hero p {
     text-align: center;
 }
 
 .hero_image {
     width: 100%;
+    margin: 1rem 0;
+}
+
+hero button {
+    border-radius: 3rem;
+    border: none;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    font-weight: bold;
+    margin: 2rem;
+    padding: 1rem;
 }
 
 .features_section {
