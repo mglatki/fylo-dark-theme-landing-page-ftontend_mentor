@@ -1,0 +1,33 @@
+$primary_background: hsl(218, 28%, 13%);
+$secondary_background: hsl(217, 28%, 15%);
+$footer_background: hsl(216, 53%, 9%);
+$quotations_background: hsl(219, 30%, 18%);
+$blue: hsl(198, 60%, 50%);
+$cyan: hsl(176, 68%, 64%);
+
+$primary_font_color: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: $primary_background;
+}
+
+body {
+    color: $primary_font_color;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+main {
+    margin: 2rem;
+}

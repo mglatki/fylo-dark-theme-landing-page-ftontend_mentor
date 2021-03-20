@@ -1,0 +1,27 @@
+.features_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+    
+    & > *:not(:first-child) {
+        margin-top: 3rem;
+    }
+}
+
+.feature_tile {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    img {
+        margin: 2rem auto;
+        height: 4rem;
+    }
+    
+    h3 {
+        margin: 1rem 0;
+    }
+    
+    p {
+        text-align: center;
+    }
+}

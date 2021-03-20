@@ -1,0 +1,11 @@
+@use 'base';
+@use 'header';
+@use 'hero';
+@use 'features';
+@use 'productive';
+@use 'quotations';
+@use 'early_acc';
+@use 'footer';
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

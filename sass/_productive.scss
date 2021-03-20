@@ -1,0 +1,29 @@
+@use 'base';
+
+.productive_section {
+    margin: 10rem 0;
+    
+    h3,
+    p {
+        margin: 1rem 0;
+    }
+    
+    .productive_image {
+        width: 100%;
+    }
+    
+    a {
+        color: base.$cyan;
+        text-decoration: none;
+        border-bottom: base.$cyan solid 0.15rem;
+        padding: 0.2rem 0;
+        
+        display: inline-grid;
+        grid-template-columns: auto 1rem;
+        grid-column-gap: 0.5rem;
+    }
+    
+    a img {
+        margin: auto 0;
+    }
+}

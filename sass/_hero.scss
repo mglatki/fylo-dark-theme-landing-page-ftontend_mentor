@@ -1,0 +1,30 @@
+@use 'base';
+
+hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    h2 {
+        line-height: 1.5;
+        margin: 1rem 0;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    .hero_image {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    button {
+        border-radius: 3rem;
+        border: none;
+        background-color: base.$blue;
+        color: base.$primary_font_color;
+        font-weight: bold;
+        margin: 2rem;
+        padding: 1rem;
+    }
+}

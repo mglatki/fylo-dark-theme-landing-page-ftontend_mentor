@@ -1,0 +1,51 @@
+@use 'base';
+
+.quotations_section {
+    margin: 5rem 1rem;
+    padding-top: 2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 0.65rem;
+
+    background-image: url(/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 2rem;
+
+    & > *:not(:first-child) {
+        margin-top: 1rem;
+    }
+}
+
+.quotations_tile {
+    background: base.$quotations_background;
+    border-radius: 0.5rem;
+
+    padding: 1.5rem;
+}
+
+author {
+    display: grid;
+    grid-column-gap: 0.5rem;
+    grid-template-columns: 2rem auto;
+    margin-top: 1rem;
+    
+    img {
+        height: 2rem;
+        border-radius: 50%;
+        
+        grid-row: 1/ span 2;
+    }
+    
+    name {
+        font-weight: bold;
+    }
+    
+    description {
+        font-size: 0.6rem;
+        grid-column: 2/2;
+        opacity: 50%;
+    }
+}

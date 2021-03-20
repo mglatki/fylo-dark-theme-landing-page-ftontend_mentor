@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #181f2a;
+}
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+main {
+  margin: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.header_logo {
+  height: 1.6rem;
+}
+
+.header_buttons_list {
+  display: flex;
+}
+.header_buttons_list > *:not(:first-child) {
+  margin-left: 1.6rem;
+}
+
+.header_list_button {
+  list-style: none;
+  margin: auto 0;
+}
+
+hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+hero h2 {
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+hero p {
+  text-align: center;
+}
+hero .hero_image {
+  width: 100%;
+  margin: 1rem 0;
+}
+hero button {
+  border-radius: 3rem;
+  border: none;
+  background-color: #339ecc;
+  color: white;
+  font-weight: bold;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.features_section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}
+.features_section > *:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.feature_tile {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.feature_tile img {
+  margin: 2rem auto;
+  height: 4rem;
+}
+.feature_tile h3 {
+  margin: 1rem 0;
+}
+.feature_tile p {
+  text-align: center;
+}
+
+.productive_section {
+  margin: 10rem 0;
+}
+.productive_section h3,
+.productive_section p {
+  margin: 1rem 0;
+}
+.productive_section .productive_image {
+  width: 100%;
+}
+.productive_section a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: #65e2d9 solid 0.15rem;
+  padding: 0.2rem 0;
+  display: inline-grid;
+  grid-template-columns: auto 1rem;
+  grid-column-gap: 0.5rem;
+}
+.productive_section a img {
+  margin: auto 0;
+}
+
+.quotations_section {
+  margin: 5rem 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.65rem;
+  background-image: url(/images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 2rem;
+}
+.quotations_section > *:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.quotations_tile {
+  background: #202a3c;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+author {
+  display: grid;
+  grid-column-gap: 0.5rem;
+  grid-template-columns: 2rem auto;
+  margin-top: 1rem;
+}
+author img {
+  height: 2rem;
+  border-radius: 50%;
+  grid-row: 1/span 2;
+}
+author name {
+  font-weight: bold;
+}
+author description {
+  font-size: 0.6rem;
+  grid-column: 2/2;
+  opacity: 50%;
+}
+
+.early_access_section {
+  background-color: #1c2431;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.early_access_section h3 {
+  margin: 1rem 0;
+}
+.early_access_section p {
+  text-align: center;
+  margin: 1rem 0;
+}
+.early_access_section input {
+  border: none;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+.early_access_section button {
+  border: none;
+  border-radius: 2rem;
+  background-color: #339ecc;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #0b1523;
+}
+.hyperlinks_section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.hyperlinks_section a {
+  display: block;
+  margin: 0.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}

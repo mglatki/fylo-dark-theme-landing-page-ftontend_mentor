@@ -1,0 +1,40 @@
+@use 'base';
+
+.early_access_section {
+    background-color: base.$secondary_background;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+    
+    h3 {
+        margin: 1rem 0;
+    }
+
+    p {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    input {
+        border: none;
+        border-radius: 2rem;
+
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    button {
+        border: none;
+        border-radius: 2rem;
+
+        background-color: base.$blue;
+        color: base.$primary_font_color;
+        font-weight: bold;
+
+        padding: 1rem;
+    }
+}
