@@ -247,6 +247,18 @@ footer {
   margin-top: 2rem;
 }
 
+.social_media_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  margin: 1rem auto;
+  width: 5.5rem;
+}
+.social_media_section a {
+  border: white solid 1px;
+  border-radius: 50%;
+  height: 1.5rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
