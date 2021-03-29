@@ -237,10 +237,14 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 2rem 0;
 }
 .hyperlinks_section a {
   display: block;
-  margin: 0.5rem;
+  margin: 1rem 0;
+}
+.hyperlinks_section > *:not(:first-child) {
+  margin-top: 2rem;
 }
 
 .attribution {
