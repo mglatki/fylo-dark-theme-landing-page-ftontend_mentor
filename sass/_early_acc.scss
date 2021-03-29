@@ -1,14 +1,32 @@
 @use 'base';
 
 .early_access_section {
-    background-color: base.$secondary_background;
+    background-color: base.$primary_background;
+    background-image:
+        linear-gradient(
+        to top, 
+        base.$footer_background,
+        base.$footer_background 50%,
+        base.$primary_background 50%
+        );
 
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 2rem;
 
-    padding: 2rem;
+    .content {
+        
+        background-color: base.$secondary_background;
+        
+        // grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        
+        margin: 2rem;
+        padding: 2rem;
+        
+        border-radius: 0.5rem;
 
-    border-radius: 0.5rem;
+        max-width: 38rem;
+    }
     
     h3 {
         margin: 1rem 0;
@@ -17,6 +35,11 @@
     p {
         text-align: center;
         margin: 1rem 0;
+    }
+
+    .subscr {
+        display: flex;
+        flex-direction: column;        
     }
 
     input {
