@@ -159,11 +159,18 @@ author description {
 }
 
 .early_access_section {
+  background-color: #181f2a;
+  background-image: linear-gradient(to top, #0b1523, #0b1523 50%, #181f2a 50%);
+  padding-bottom: 2rem;
+}
+.early_access_section .content {
   background-color: #1c2431;
   display: flex;
   flex-direction: column;
+  margin: 2rem;
   padding: 2rem;
   border-radius: 0.5rem;
+  max-width: 38rem;
 }
 .early_access_section h3 {
   margin: 1rem 0;
@@ -171,6 +178,10 @@ author description {
 .early_access_section p {
   text-align: center;
   margin: 1rem 0;
+}
+.early_access_section .subscr {
+  display: flex;
+  flex-direction: column;
 }
 .early_access_section input {
   border: none;
