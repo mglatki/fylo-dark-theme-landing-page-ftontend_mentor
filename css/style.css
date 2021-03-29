@@ -200,7 +200,39 @@ author description {
 
 footer {
   background-color: #0b1523;
+  padding: 2rem;
 }
+
+.contact_section {
+  display: grid;
+  grid-row-gap: 2rem;
+}
+.contact_section #contact__logo {
+  height: 3rem;
+}
+.contact_section .contact_content {
+  display: flex;
+  flex-direction: column;
+}
+.contact_section #contact__navigation {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+}
+.contact_section img {
+  margin: 0.35rem 1rem 0.35rem 0rem;
+  height: 1rem;
+}
+.contact_section #contact__methods {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  grid-row-gap: 1rem;
+  margin: 1rem 0;
+}
+.contact_section p {
+  align-content: center;
+  margin: auto 0;
+}
+
 .hyperlinks_section {
   display: flex;
   flex-direction: column;
