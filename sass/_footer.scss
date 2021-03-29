@@ -1,0 +1,43 @@
+@use 'base';
+
+footer {
+    background-color: base.$footer_background;
+
+    padding: 2rem;
+}
+
+.contact_section {
+    display: grid;
+    grid-row-gap: 2rem;
+    
+    #contact__logo {
+        height: 3rem;
+    }
+
+    .contact_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact__navigation {
+        display: grid;
+        grid-template-columns: 2rem 1fr;
+    }    
+
+    img {
+        margin: 0.35rem 1rem 0.35rem 0rem;
+        height: 1rem;
+    }
+
+    #contact__methods {
+        display: grid;
+        grid-template-columns: 2rem 1fr;
+        grid-row-gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    p {
+        align-content: center;
+        margin: auto 0;
+    }
+}
