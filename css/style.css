@@ -77,7 +77,8 @@ hero button {
 .features_section {
   display: flex;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 5rem auto;
+  justify-content: center;
 }
 .features_section > *:not(:first-child) {
   margin-top: 3rem;
@@ -86,6 +87,7 @@ hero button {
 .feature_tile {
   display: grid;
   grid-template-columns: 1fr;
+  max-width: 24rem;
 }
 .feature_tile img {
   margin: 2rem auto;
@@ -275,6 +277,19 @@ footer {
   hero p {
     font-size: 1.1rem;
     max-width: 34rem;
+  }
+
+  .features_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+  .features_section > *:not(:first-child) {
+    margin-top: 0rem;
+  }
+
+  .feature_tile {
+    justify-self: center;
   }
 }
 .attribution {

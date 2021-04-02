@@ -1,7 +1,8 @@
 .features_section {
     display: flex;
     flex-wrap: wrap;
-    margin: 5rem 0;
+    margin: 5rem auto;
+    justify-content: center;
     
     & > *:not(:first-child) {
         margin-top: 3rem;
@@ -11,6 +12,7 @@
 .feature_tile {
     display: grid;
     grid-template-columns: 1fr;
+    max-width: 24rem;
     
     img {
         margin: 2rem auto;

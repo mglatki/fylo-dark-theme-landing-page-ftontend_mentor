@@ -16,5 +16,18 @@
             max-width: 34rem;
         }
     }
+    .features_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
+                
+        & > *:not(:first-child) {
+            margin-top: 0rem;
+        }
+    }
+
+    .feature_tile {
+        justify-self: center;
+    }
 
 }
