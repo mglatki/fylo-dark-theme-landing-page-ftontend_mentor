@@ -1,5 +1,24 @@
 @use 'base';
 
+
+@media (min-width:620px) {
+    .quotations_section {
+        justify-content: space-around;
+
+        & > *:not(:first-child) {
+            margin-top: 0;
+            margin-left: 1rem;
+        }
+
+        & > * {
+            flex: 1 1 24em;
+            max-width: 24rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+}
+
 @media (min-width:820px) {
     main {
         margin: 2rem auto;
@@ -56,4 +75,16 @@
             grid-row: 1/ span 5;
         }
     }
+
+    .quotations_section {
+        & > *:not(:first-child) {
+            margin-top: 0;
+        }
+    }
+
+    .quotations_tile {
+        width: 30%;
+    }
+
+
 }

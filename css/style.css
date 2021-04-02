@@ -271,6 +271,21 @@ footer {
   border-radius: 50%;
   height: 1.5rem;
 }
+
+@media (min-width: 620px) {
+  .quotations_section {
+    justify-content: space-around;
+  }
+  .quotations_section > *:not(:first-child) {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .quotations_section > * {
+    flex: 1 1 24em;
+    max-width: 24rem;
+    margin-bottom: 1rem;
+  }
+}
 @media (min-width: 820px) {
   main {
     margin: 2rem auto;
@@ -319,6 +334,14 @@ footer {
     width: 100%;
     max-width: 40rem;
     grid-row: 1/span 5;
+  }
+
+  .quotations_section > *:not(:first-child) {
+    margin-top: 0;
+  }
+
+  .quotations_tile {
+    width: 30%;
   }
 }
 .attribution {
