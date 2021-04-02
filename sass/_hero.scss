@@ -3,6 +3,7 @@
 hero {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
     
     h2 {
         line-height: 1.5;
@@ -15,6 +16,7 @@ hero {
     
     .hero_image {
         width: 100%;
+        max-width: 42rem;
         margin: 1rem 0;
     }
     
@@ -26,5 +28,6 @@ hero {
         font-weight: bold;
         margin: 2rem;
         padding: 1rem;
+        width: 16rem;
     }
 }

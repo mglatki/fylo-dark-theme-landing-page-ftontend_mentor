@@ -21,6 +21,7 @@ h1, h2, h3 {
 
 main {
   margin: 2rem;
+  max-width: 60rem;
 }
 
 header {
@@ -48,6 +49,7 @@ header {
 hero {
   display: grid;
   grid-template-columns: 1fr;
+  justify-items: center;
 }
 hero h2 {
   line-height: 1.5;
@@ -58,6 +60,7 @@ hero p {
 }
 hero .hero_image {
   width: 100%;
+  max-width: 42rem;
   margin: 1rem 0;
 }
 hero button {
@@ -68,6 +71,7 @@ hero button {
   font-weight: bold;
   margin: 2rem;
   padding: 1rem;
+  width: 16rem;
 }
 
 .features_section {
@@ -258,6 +262,20 @@ footer {
   border: white solid 1px;
   border-radius: 50%;
   height: 1.5rem;
+}
+@media (min-width: 820px) {
+  main {
+    margin: 2rem auto;
+  }
+
+  hero h2 {
+    font-size: 2.2rem;
+    max-width: 40rem;
+  }
+  hero p {
+    font-size: 1.1rem;
+    max-width: 34rem;
+  }
 }
 .attribution {
   font-size: 11px;
