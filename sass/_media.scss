@@ -29,5 +29,31 @@
     .feature_tile {
         justify-self: center;
     }
+    
+    .productive_section {
+        margin: 10rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6fr 2fr 2fr 1fr 2fr;
+        grid-column-gap: 1rem;
+        align-items: end;
+        justify-items: left;
 
+        h3 {
+            font-size: 2rem;
+            padding-right: 25%;
+            text-align: left;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .productive_image {
+            width: 100%;
+            max-width: 40rem;
+
+            grid-row: 1/ span 5;
+        }
+    }
 }

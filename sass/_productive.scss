@@ -1,6 +1,9 @@
 @use 'base';
 
 .productive_section {
+    display: grid;
+    grid-column: 1fr;
+    justify-items: left;
     margin: 10rem 0;
     
     h3,
@@ -9,7 +12,10 @@
     }
     
     .productive_image {
+        justify-self: center;
         width: 100%;
+        max-width: 40rem;
+        margin: 0 auto;
     }
     
     a {
