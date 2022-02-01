@@ -1,22 +1,29 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
 }
 
 .header_logo {
-    height: 1.6rem;
+  height: 1.6rem;
 }
 
 .header_buttons_list {
-    display: flex;
-    
-    & > *:not(:first-child) {
-        margin-left: 1.6rem;
-    }
+  display: flex;
+
+  & > *:not(:first-child) {
+    margin-left: 1.6rem;
+  }
 }
 
 .header_list_button {
-    list-style: none;
-    margin: auto 0;
+  padding: 3px;
+  list-style: none;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+.header_list_button:hover {
+  // font-weight: bold;
+  text-decoration: underline;
 }

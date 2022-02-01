@@ -60,4 +60,9 @@
 
         padding: 1rem;
     }
+
+    button:hover {
+        cursor: pointer;
+        background-color: base.$cyan;
+    }
 }

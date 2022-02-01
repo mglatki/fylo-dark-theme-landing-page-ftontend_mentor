@@ -2,6 +2,19 @@
 
 
 @media (min-width:620px) {
+
+    header {
+        margin-top: 4rem;
+    }
+
+    .header_logo {
+        height: 3rem;
+    }
+    
+    .header_buttons_list > *:not(:first-child) {
+        margin-left: 3rem;        
+    }
+
     .quotations_section {
         justify-content: space-around;
 
@@ -36,6 +49,13 @@
 }
 
 @media (min-width:820px) {
+
+    header {
+        margin-left: auto;
+        margin-right: auto;
+        width: clamp(70%, 80%, 75rem);
+    }
+
     main {
         margin: 2rem auto;
     }
@@ -111,6 +131,61 @@
 
         .subscr {
             grid-template-columns: 7fr 3fr;
+        }
+    }
+
+    @media (min-width:1000px) {
+
+        footer .content {
+            display: grid;
+            grid-column-gap: 4rem;
+            grid-template-columns: 9fr 4fr 2fr;
+            // margin: 0 auto;
+            margin: 0 max(15%, 8rem);
+            // width: 100%;
+            // padding: 5rem max(10%, 8rem);
+        }
+
+        .contact_section .contact_content {
+            align-items: flex-start;
+            flex-direction: row;
+
+            // & > * {
+            //     flex-basis: 100%;
+            // }
+
+            // & > :last-child {
+
+            // }
+        }
+
+        .contact_section #contact__methods {
+            margin: 0;
+            margin-left: 6rem;
+            width: 40ch;
+        }
+
+        .hyperlinks_section {
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0;
+
+            & > :not(:first-child) {
+                margin: 0;
+            }
+
+            & > div > :first-child {
+                margin-top: 0;
+            }
+        }
+
+        .social_media_section {      
+            margin: 0 auto;
+        }
+
+        footer .attribution {
+            grid-column: span 3;
+            padding: 1rem;
         }
     }
 }
